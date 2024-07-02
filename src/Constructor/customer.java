@@ -20,4 +20,10 @@ public class customer {
         this.creditLimit=creditLimit;
         this.email=email;
     }
+    public customer(){
+        this("test1",123.90,"test1@email");
+    }
+    public customer(String name,String email){
+        this(name,123.89,email);
+    }
 }
